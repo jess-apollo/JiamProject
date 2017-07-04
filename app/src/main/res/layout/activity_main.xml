@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E8D7B3">
+
+    <Button
+        android:text="Start"
+        android:id="@+id/bt_StartStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:layout_marginStart="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/circlebutton2"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:textStyle ="bold"/>
+
+    <Button
+        android:text="Register"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_upload"
+        android:layout_marginEnd="35dp"
+        android:background="@drawable/circlebutton2"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:textStyle ="bold"
+        android:layout_alignBaseline="@+id/bt_StartStop"
+        android:layout_alignBottom="@+id/bt_StartStop"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:id="@+id/fftView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/bt_StartStop"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="53dp" />
+
+</RelativeLayout>
